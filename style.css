@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color:rgb(93, 120, 147);
+    color: rgb(157, 157, 157);
+    padding: 15px;
+    filter: none;
+    position:sticky;
+    top: 0px;
+
+}
+.brandname{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 80px;
+    color: rgb(183, 183, 136);
+    display: inline;
+    padding-left: 30%;
+}
+
+
+.container{
+    background-color:rgb(222, 161, 179);
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.timer-Display{
+    width: 100%;
+    background:  rgb(194, 60, 133);
+    padding: 40px 0;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    border-radius: 10px 10px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+                rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+                rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+                rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+                rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+                rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+                rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+                rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.laps{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.buttons{
+    width: 85%;
+    margin: 60px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #141313;
+    border: none;
+    font-family:  "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.buttons button:hover{
+    background-color:#141313 ;
+    color: #ffffff;
+    border: 3px solid #b6b6b6;
+    padding: 7px 17px;
+    
+} 
+.flooter{
+    height: 120px;
+    width: 100%;
+    background-color:rgb(108, 118, 162);
+    padding-bottom: 100px;
+    position: absolute;
+    bottom: 60px;
+}
+
+h5{
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   text-align: center;
+   color: rgb(253, 255, 255);
+   padding-top: 10px;
+}
+a{
+    display: inline-flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   padding-top: 0px;
+   
+}
+.at1{
+    padding-left: 40.8%;
+    padding-right: 40px;
+    position: relative;
+    top: 8px;
+    
+}
+.at2{
+    padding-right: 40px;
+    padding-bottom: 10px;
+    
+}
+.at3{
+    padding-right: 40px;
+    position: relative;
+    top: 8px;
+}
+.at4{
+    padding-right: 40px;
+    position: relative;
+    top: 8px;
+    
+}
+
+.dd{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(75, 73, 73);
+    color: azure;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}
+.dd1{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 14px;
+}
+.dd2{
+    font-size:13px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+}
